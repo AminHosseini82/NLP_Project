@@ -12,8 +12,8 @@ EMBEDDING_MODEL = "intfloat/multilingual-e5-large"
 
 # کلید API برای Groq (رایگان)
 # می‌توانی از سایت console.groq.com یک کلید رایگان بگیری
-# GROQ_API_KEY = "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" 
-GROQ_API_KEY = "YOUR_API_KEY_HERE" 
+GROQ_API_KEY = "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" 
+# GROQ_API_KEY = "YOUR_API_KEY_HERE" 
 
 
 
