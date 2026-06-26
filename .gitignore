@@ -1,6 +1,6 @@
 # For project
 data/1. Ayin-nameh-ha va Shiveh-nameh-haaye yekparcheh (tamam doreh-haaye tahsili)/Python_files_forPDFReading
-
+.env
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

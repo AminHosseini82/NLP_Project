@@ -17,6 +17,36 @@ def load_rag_components():
 
 db, llm = load_rag_components()
 
+st.set_page_config(page_title="سامانه پرسش‌وپاسخ دانشگاه", page_icon="🎓", layout="centered")
+
+st.markdown("""
+<style>
+    /* راست‌چین کردن کل بدنه سایت و تنظیم فونت */
+    body, .stApp {
+        direction: rtl;
+        text-align: right;
+        font-family: 'Tahoma', 'Vazir', 'B Nazanin', sans-serif;
+    }
+    
+    /* راست‌چین کردن لیبل‌های ورودی متن (مانند 'سؤال شما:') */
+    .stTextInput > div > div > div > div > p {
+        text-align: right !important;
+        direction: rtl;
+    }
+    
+    /* راست‌چین کردن باک‌های پیام (مانند st.info و st.error) */
+    .stAlert > div {
+        direction: rtl;
+        text-align: right;
+    }
+
+    /* تنظیم دکمه‌ها برای ظاهر بهتر در حالت فارسی */
+    .stButton > button {
+        float: right;
+    }
+</style>
+""", unsafe_allow_html=True)
+
 st.title("🎓 سامانه پرسش‌وپاسخ هوشمند دانشگاه باهنر")
 st.write("سوال خود را درباره آیین‌نامه‌ها و دستورالعمل‌ها بپرسید.")
 
